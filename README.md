@@ -1,4 +1,6 @@
-Eksperymentalny obraz FM POLAND Raspberry PI dla opisu na stronie: http://fm-poland.pl/budowa-hotspota/
+Eksperymentalny obraz FM POLAND Raspberry PI Zero oraz 2/3/4 dla opisu na stronie: http://fm-poland.pl/budowa-hotspota/
+
+Obraz o nazwie fmpoland-rpi.img.xz nagrać na kartę microSD (8 Gb lub większa) przy pomocy: https://etcher.balena.io/
 
 Login do konsoli via ssh:
 
@@ -40,8 +42,6 @@ sudo cp /etc/svxlink/svxlink-gpio.conf /etc/svxlink/svxlink.conf
 lub
 
 sudo cp /etc/svxlink/svxlink-cm108-mod.conf /etc/svxlink/svxlink.conf
-
-
 
 
 .
