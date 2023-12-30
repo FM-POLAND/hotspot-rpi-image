@@ -16,7 +16,17 @@ lub
 
 http://ip_adres
 
-Konfiguracja via Dashboard, należy wybrać z menu "Admin"
+Konfiguracja via Dashboard, należy wybrać z menu "Admin" i nastepnie: 
+
+"SVXCnf" - konfiguracja konta FM POLAND
+
+"NodeInfo" - Informacje o stacji
+
+"WEBCnf" - konfiguracja Dasboard
+
+oraz inne opcje stosownie do potrzeb
+
+![Admin Menu](https://github.com/FM-POLAND/hotspot-rpi-image/blob/main/admin-menu.png)
 
 Obraz ten można używać z produktami SHARI i SHARI PiHat https://kits4hams.com/shari
 
