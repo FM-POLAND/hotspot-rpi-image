@@ -18,6 +18,8 @@ http://ip_adres
 
 Konfiguracja via Dashboard, należy wybrać z menu "Admin" i nastepnie: 
 
+"SQL PTT" - ustawienia sprzetowe SQL i PTT oraz Hidraw dla CM108
+
 "SVXCnf" - konfiguracja konta FM POLAND
 
 "NodeInfo" - Informacje o stacji
