@@ -28,6 +28,9 @@ Konfiguracja via Dashboard, należy wybrać z menu "Admin" i nastepnie:
 
 oraz inne opcje stosownie do potrzeb
 
+CZYTAJ uważnie informacje umieszczone w każdym oknie z seri administracyjnych
+w których są istotne informacje do dostępnych ustawień
+
 ![Admin Menu](https://github.com/FM-POLAND/hotspot-rpi-image/blob/main/admin-menu.png)
 
 Obraz ten można używać z produktami SHARI i SHARI PiHat https://kits4hams.com/shari
