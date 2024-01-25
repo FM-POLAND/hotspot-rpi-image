@@ -35,11 +35,14 @@ w których są istotne informacje do dostępnych ustawień
 
 Obraz ten można używać z produktami SHARI i SHARI PiHat https://kits4hams.com/shari
 
-Domyślnie obraz przygotowany do pracy z modyfikowaną karta dźwiękową CM108
+
+Domyślnie obraz przygotowany do pracy z modyfikowaną karta dźwiękową CM108 czyli
+między innymi dla hotspotów na bazie SHARI, HotspotRadios z modułami SA818
 
 Dostępne konfiguracje:
 
-Konfiguracja dla zmodyfikowanej karty CM108, sterowanie SQL i PTT via gpio CM108:
+Konfiguracja dla zmodyfikowanej karty CM108, sterowanie SQL i PTT via gpio CM108
+czyli dal hotspotów na bazie SHARI, HotsporRadios z modułami SA818: 
 
 /etc/svxlink/svxlink-cm108-mod.conf   
 
