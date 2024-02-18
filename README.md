@@ -63,6 +63,8 @@ sudo cp /etc/svxlink/svxlink-cm108-mod.conf /etc/svxlink/svxlink.conf
 
 ![Raspberry](https://github.com/FM-POLAND/hotspot-rpi-image/blob/main/rpi-login.png)
 
+**Eksperymentalny obraz używasz na własną odpowiedzialność i autor nie ponosi odpowiedzialności za wykorzystane rozwiązanie i wynikające z niego skutki.**
+
 .
 
 
