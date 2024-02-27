@@ -16,6 +16,8 @@ lub
 
 http://ip_adres
 
+Aby dowiedzieć się jaki jest adres IP przydzielony do komputera (jesli masz działajac radio w hotspocie) użyj kodu DTMF 30# a otrzymasz informacje o adres IP
+
 Konfiguracja via Dashboard, należy wybrać z menu "Admin" i nastepnie: 
 
 "SQL PTT" - ustawienia sprzetowe SQL i PTT oraz Hidraw dla CM108
@@ -24,7 +26,7 @@ Konfiguracja via Dashboard, należy wybrać z menu "Admin" i nastepnie:
 
 "NodeInfo" - Informacje o stacji
 
-"WEBCnf" - konfiguracja Dasboard
+"WEBCnf" - konfiguracja Dashboard
 
 oraz inne opcje stosownie do potrzeb
 
