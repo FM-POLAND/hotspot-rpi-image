@@ -1,4 +1,4 @@
-Eksperymentalny obraz FM POLAND Raspberry PI v 2/3/4 dla opisu na stronie: http://fm-poland.pl/budowa-hotspota/
+Eksperymentalny obraz FM POLAND Raspberry PI v 2/3/4 
 
 Obraz o nazwie **fmpoland-rpi.img.xz** nagrać na kartę microSD (8 Gb lub większa) przy pomocy: https://etcher.balena.io/
 
@@ -37,16 +37,15 @@ w których są istotne informacje do dostępnych ustawień
 
 ![Admin Menu](https://github.com/FM-POLAND/hotspot-rpi-image/blob/main/admin-menu.png)
 
-Obraz ten można używać z produktami SHARI i SHARI PiHat https://kits4hams.com/shari lub
- HotSpotRadio https://hotspotradios.com/purchase-parts lub USB-RMI https://www.repeater-builder.com/products/usb-rim-lite.html
+Obraz ten można używać z produktami SHARI i SHARI PiHat https://kits4hams.com/shari lub HotSpotRadio https://hotspotradios.com/purchase-parts lub USB-RMI https://www.repeater-builder.com/products/usb-rim-lite.html
+Można używać do z kartą dźwiekową CM108 modyfikowana lub bez modyfikacji z dowolnym radiem
 
-Domyślnie obraz przygotowany do pracy z modyfikowaną karta dźwiękową CM108 czyli
-między innymi dla hotspotów na bazie SHARI, HotspotRadios z modułami SA818
+Domyślnie obraz przygotowany do pracy z modyfikowaną karta dźwiękową CM108
 
 Dostępne konfiguracje:
 
 Konfiguracja dla zmodyfikowanej karty CM108, sterowanie SQL i PTT via gpio CM108
-czyli dal hotspotów na bazie SHARI, HotsporRadios z modułami SA818: 
+czyli dla hotspotów na bazie SHARI, HotsporRadios z modułami SA818: 
 
 /etc/svxlink/svxlink-cm108-mod.conf
 
