@@ -1,6 +1,6 @@
-Eksperymentalny obraz FM POLAND Raspberry PI Zero oraz 2/3/4 dla opisu na stronie: http://fm-poland.pl/budowa-hotspota/
+Eksperymentalny obraz FM POLAND Raspberry PI v 2/3/4 dla opisu na stronie: http://fm-poland.pl/budowa-hotspota/
 
-Obraz o nazwie fmpoland-rpi.img.xz nagrać na kartę microSD (8 Gb lub większa) przy pomocy: https://etcher.balena.io/
+Obraz o nazwie **fmpoland-rpi.img.xz** nagrać na kartę microSD (8 Gb lub większa) przy pomocy: https://etcher.balena.io/
 
 Login do konsoli via ssh:
 
@@ -8,15 +8,17 @@ user: pi
 
 hasło: fmpoland
 
+Zalecana zmiana hasła poleceniem: **passwd**
+
 Dostęp do dashboard:
 
-http://hotspot-fmpl.local
+http://hotspot-fmpl.local/
 
 lub
 
 http://ip_adres
 
-Aby dowiedzieć się jaki jest adres IP przydzielony do komputera (jesli masz działajac radio w hotspocie) użyj kodu DTMF 30# a otrzymasz informacje o adres IP
+Aby dowiedzieć się jaki jest adres IP przydzielony do komputera (jesli masz działajace radio w hotspocie) użyj kodu DTMF 30# a otrzymasz informacje o adres IP
 
 Konfiguracja via Dashboard, należy wybrać z menu "Admin" i nastepnie: 
 
@@ -30,13 +32,13 @@ Konfiguracja via Dashboard, należy wybrać z menu "Admin" i nastepnie:
 
 oraz inne opcje stosownie do potrzeb
 
-CZYTAJ uważnie informacje umieszczone w każdym oknie z seri administracyjnych
+CZYTAJ uważnie informacje umieszczone w każdym oknie z serii administracyjnych
 w których są istotne informacje do dostępnych ustawień
 
 ![Admin Menu](https://github.com/FM-POLAND/hotspot-rpi-image/blob/main/admin-menu.png)
 
-Obraz ten można używać z produktami SHARI i SHARI PiHat https://kits4hams.com/shari
-
+Obraz ten można używać z produktami SHARI i SHARI PiHat https://kits4hams.com/shari lub
+ HotSpotRadio https://hotspotradios.com/purchase-parts lub USB-RMI https://www.repeater-builder.com/products/usb-rim-lite.html
 
 Domyślnie obraz przygotowany do pracy z modyfikowaną karta dźwiękową CM108 czyli
 między innymi dla hotspotów na bazie SHARI, HotspotRadios z modułami SA818
@@ -46,14 +48,13 @@ Dostępne konfiguracje:
 Konfiguracja dla zmodyfikowanej karty CM108, sterowanie SQL i PTT via gpio CM108
 czyli dal hotspotów na bazie SHARI, HotsporRadios z modułami SA818: 
 
-/etc/svxlink/svxlink-cm108-mod.conf   
+/etc/svxlink/svxlink-cm108-mod.conf
 
 Konfiguracja dla niezmodyfikowanej karty CM108 i sterowanie via GPIO RPI dla SQL i PTT:
 
-/etc/svxlink/svxlink-gpio.conf        
+/etc/svxlink/svxlink-gpio.conf
 
-Należy zalogować się via SSH do RPI i skopiować wybrną konfiguracje na nazwę svxlink.conf i następnie konfigurować via Dashboard
-z menu "Admin"
+Należy zalogować się via SSH do RPI i skopiować wybrną konfiguracje na nazwę svxlink.conf i następnie konfigurować via Dashboard z menu "Admin"
 
 Przykład:
 
@@ -63,10 +64,12 @@ lub
 
 sudo cp /etc/svxlink/svxlink-cm108-mod.conf /etc/svxlink/svxlink.conf
 
+Dodatkowo jest możliwość dostępu do strony http://ip_adres/svxc/ wymaga logowania użytkownikiem i hasłem. Ustawienia użytkownika i hasła znajdziesz w pliku /etc/svxlink/SVXControl.txt
+
 ![Raspberry](https://github.com/FM-POLAND/hotspot-rpi-image/blob/main/rpi-login.png)
+
 
 **Eksperymentalny obraz używasz na własną odpowiedzialność i autor nie ponosi odpowiedzialności za wykorzystane rozwiązanie i wynikające z niego skutki.**
 
-.
 
 
