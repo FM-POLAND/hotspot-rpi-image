@@ -62,8 +62,11 @@ sudo cp /etc/svxlink/svxlink-gpio.conf /etc/svxlink/svxlink.conf
 lub
 
 sudo cp /etc/svxlink/svxlink-cm108-mod.conf /etc/svxlink/svxlink.conf
+Jeśli dashboard będzie dostępny z zewnątrz to aby dostać się do menu ADMIN należy w Admin -> WebCnf w opcji REMOTEIP zamiast adresu 127.0.0.1 wpisać zdalny zaufany IP adres (można skorzystać z VPN Tailscale wersja personal zawiera darmową obsługę 3 userów/100 urzadzeń). Można też dostać z publicznego adresu do strony dashboard po linkiem
 
-Dodatkowo jest możliwość dostępu do strony http://ip_adres/svxc/ wymaga logowania użytkownikiem i hasłem. Ustawienia użytkownika i hasła znajdziesz w pliku /etc/svxlink/SVXControl.txt
+http://ipadresdashboard/svxc/
+
+po podaniu użytkownika i hasła gdzie można wyłączyć lub włączyć zdalnie odbiornik SVXLINK. Jak założyć użytkownika i dla niego hasło patrz opis na swoim hotspot w pliku /etc/svxlink/SVXControl.txt
 
 ![Raspberry](https://github.com/FM-POLAND/hotspot-rpi-image/blob/main/rpi-login.png)
 
