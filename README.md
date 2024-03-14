@@ -62,7 +62,8 @@ sudo cp /etc/svxlink/svxlink-gpio.conf /etc/svxlink/svxlink.conf
 lub
 
 sudo cp /etc/svxlink/svxlink-cm108-mod.conf /etc/svxlink/svxlink.conf
-Jeśli dashboard będzie dostępny z zewnątrz to aby dostać się do menu ADMIN należy w Admin -> WebCnf w opcji REMOTEIP zamiast adresu 127.0.0.1 wpisać zdalny zaufany IP adres (można skorzystać z VPN Tailscale wersja personal zawiera darmową obsługę 3 userów/100 urzadzeń). Można też dostać z publicznego adresu do strony dashboard po linkiem
+
+Jeśli dashboard będzie dostępny z zewnątrz (zastanów sie czy jest to ci niezbędne  to aby dostać się do menu ADMIN należy w Admin -> WebCnf w opcji REMOTEIP zamiast adresu 127.0.0.1 wpisać zdalny zaufany IP adres (ZALECANE: można skorzystać z VPN [Tailscale](https://tailscale.com/) wersja personal zawiera darmową obsługę 3 userów/100 urzadzeń). Można też dostać z publicznego adresu do strony dashboard po linkiem
 
 http://ipadresdashboard/svxc/
 
