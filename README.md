@@ -71,6 +71,23 @@ po podaniu użytkownika i hasła gdzie można wyłączyć lub włączyć zdalnie
 
 ![Raspberry](https://github.com/FM-POLAND/hotspot-rpi-image/blob/main/rpi-login.png)
 
+Dostępne są dwie wersje dashboard "jasny" i ciemny" 
+
+Aby zmienić dashboard z "jasny" na "ciemny" trzeba via ssh jako user root zrobić
+
+cd /var/www
+
+Zmienić nazwę katalogu html na html1 poleceniem
+
+**mv html html1**
+
+a nowy dashboard zmienić z html2 na html poleceniem
+
+**mv html2 html**
+
+Aby wrócić do "jasnego"  należy zmienić nazwy katalogów  html na html2 a html1 na html
+
+
 
 **Eksperymentalny obraz używasz na własną odpowiedzialność i autor nie ponosi odpowiedzialności za wykorzystane rozwiązanie i wynikające z niego skutki.**
 
