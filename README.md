@@ -71,7 +71,7 @@ po podaniu użytkownika i hasła gdzie można wyłączyć lub włączyć zdalnie
 
 ![Raspberry](https://github.com/FM-POLAND/hotspot-rpi-image/blob/main/rpi-login.png)
 
-Dostępne są dwie wersje dashboard "jasny" i ciemny" 
+Dostępne są dwie wersje dashboard "jasny" i "ciemny" 
 
 Aby zmienić dashboard z "jasny" na "ciemny" trzeba via ssh jako user root zrobić
 
