@@ -2,7 +2,7 @@ Eksperymentalny obraz FM POLAND **Raspberry PI v 2/3/4**
 
 ( Obraz dla Orange Pi Zero **v1** znajdziesz tu: https://github.com/sp2ong/hotspot-ozpi-image/releases/tag/1.0 )
 
-( Obraz dla Orange Pi Zero **v3** znajdziesz tu:  https://github.com/radioprj/orangepiv3/releases/tag/v1.0 )
+( Obraz dla Orange Pi Zero **v3** znajdziesz tu:  https://github.com/radioprj/orangepizerov3/releases/tag/v1.0 )
 
 Obraz o nazwie **fmpoland-rpi.img.xz** nagrać na kartę microSD (8 Gb lub większa) przy pomocy: https://etcher.balena.io/
 
