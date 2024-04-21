@@ -1,4 +1,8 @@
-Eksperymentalny obraz FM POLAND Raspberry PI v 2/3/4 
+Eksperymentalny obraz FM POLAND **Raspberry PI v 2/3/4**
+
+( Obraz dla Orange Pi Zero **v1** znajdziesz tu: https://github.com/sp2ong/hotspot-ozpi-image/releases/tag/1.0 )
+
+( Obraz dla Orange Pi Zero **v3** znajdziesz tu:  https://github.com/radioprj/orangepiv3/releases/tag/v1.0 )
 
 Obraz o nazwie **fmpoland-rpi.img.xz** nagrać na kartę microSD (8 Gb lub większa) przy pomocy: https://etcher.balena.io/
 
@@ -27,6 +31,7 @@ W pierwszej kolejności sprawdź poprawne ustawia obsługi SQL i PTT w menu
 **SQL PTT"
 
 Po sprawdzeniu / ustawieniu  SQL / PTT dopiero wtedy możesz przejść do konfiguracji:
+
 "SVXCnf" - konfiguracja konta FM POLAND
 
 "NodeInfo" - Informacje o stacji
@@ -41,14 +46,14 @@ w których są istotne informacje do dostępnych ustawień
 ![Admin Menu](https://github.com/FM-POLAND/hotspot-rpi-image/blob/main/admin-menu.png)
 
 Obraz ten można używać z produktami SHARI i SHARI PiHat https://kits4hams.com/shari lub HotSpotRadio https://hotspotradios.com/purchase-parts lub USB-RMI https://www.repeater-builder.com/products/usb-rim-lite.html
-Można używać do z kartą dźwiekową CM108 modyfikowana lub bez modyfikacji z dowolnym radiem
+Można używać  z kartą dźwiękową CM108 modyfikowana lub bez modyfikacji z dowolnym radiem
 
 Domyślnie obraz przygotowany do pracy z modyfikowaną karta dźwiękową CM108
 
 Dostępne konfiguracje:
 
 Konfiguracja dla zmodyfikowanej karty CM108, sterowanie SQL i PTT via gpio CM108
-czyli dla hotspotów na bazie SHARI, HotsporRadios z modułami SA818: 
+czyli dal hotspotów na bazie SHARI, HotsporRadios z modułami SA818: 
 
 /etc/svxlink/svxlink-cm108-mod.conf
 
@@ -66,7 +71,7 @@ lub
 
 sudo cp /etc/svxlink/svxlink-cm108-mod.conf /etc/svxlink/svxlink.conf
 
-Jeśli dashboard będzie dostępny z zewnątrz (należy przemyśleć to czy jest to ci niezbędne)  to aby dostać się do menu ADMIN należy w Admin -> WebCnf w opcji REMOTEIP zamiast adresu 127.0.0.1 wpisać zdalny zaufany IP adres (ZALECANE: można skorzystać z VPN [Tailscale](https://tailscale.com/) wersja personal zawiera darmową obsługę 3 userów/100 urzadzeń). Można też dostać z publicznego adresu do strony dashboard po linkiem
+Jeśli dashboard będzie dostępny z zewnątrz (należy przemyśleć to czy jest to ci niezbędne czy jest to ci niezbędne)  to aby dostać się do menu ADMIN należy w Admin -> WebCnf w opcji REMOTEIP zamiast adresu 127.0.0.1 wpisać zdalny zaufany IP adres (ZALECANE: można skorzystać z VPN [Tailscale](https://tailscale.com/) wersja personal zawiera darmową obsługę 3 userów/100 urządzeń). Można też dostać z publicznego adresu do strony dashboard po linkiem
 
 http://ipadresdashboard/svxc/
 
@@ -74,8 +79,7 @@ po podaniu użytkownika i hasła gdzie można wyłączyć lub włączyć zdalnie
 
 ![Raspberry](https://github.com/FM-POLAND/hotspot-rpi-image/blob/main/rpi-login.png)
 
-
-
+Obraz zawiera dwa rodzaje dashboard, Domyślny w wersji "BLUE" stary dashboard tzw "jasny"
 
 
 **Eksperymentalny obraz używasz na własną odpowiedzialność i autor nie ponosi odpowiedzialności za wykorzystane rozwiązanie i wynikające z niego skutki.**
