@@ -26,7 +26,7 @@ IP adres możesz znaleźć przy pomocy darmowego narzędzia: https://www.advance
 
 Konfiguracja via Dashboard, należy wybrać z menu "Admin" i następnie: 
 
-W pierwszej kolejności sprawdź poprawne ustawia obsługi SQL i PTT w menu
+W pierwszej kolejności sprawdź poprawne ustawienia obsługi SQL i PTT w menu
 
 **SQL PTT"
 
