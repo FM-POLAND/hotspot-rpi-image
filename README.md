@@ -1,4 +1,4 @@
-Eksperymentalny obraz FM POLAND **Raspberry PI v 2/3/4**
+Eksperymentalny obraz FM POLAND **Raspberry PI**
 
 ( Obraz dla Orange Pi Zero **v1** znajdziesz tu: https://github.com/sp2ong/hotspot-ozpi-image/releases/tag/1.0 )
 
